@@ -1,0 +1,133 @@
+:root{
+    --main-title: #F0B27A;
+    --bg-color: #d6ad61;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/*start nav*/
+.navbar{
+    background-color: #B68D40;
+}
+.navbar .navbar-nav .nav-link{
+    color: #f4ebd0;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+    color: #784212;
+}
+.navbar .navbar-toggler{
+    color: white;
+    font-size: 25px;
+    border-color: white;
+}
+.navbar .logo{
+    margin-left: -55px;
+    cursor: pointer;
+}
+.navbar-nav{
+    font-size: 20px;
+}
+.navbar .lang{
+    font-size: 20px;
+    color: #f4ebd0;
+    font-weight: bold;
+    background-color: #B68D40;
+}
+.navbar .lang{
+    color: #873600;
+    font-weight: bold;
+}
+.navbar .lang .langu{
+    background-color: #B68D40;
+    border: none;
+    font-size: 22px;
+}
+.navbar .lang ul li a:hover{
+    width: 95%;
+}
+/*end nav*/
+
+/*start landing*/
+.landing{
+    background-color: var(--bg-color);
+    min-height: calc(100vh - 200px);
+}
+.landing .main-btn{
+    background-color: var(--main-title);
+    font-weight: bold;
+    color: white;
+}
+/*end landing*/
+
+/*start services*/
+.main-title::after{
+    content: "";
+    position: absolute;
+    background-color: #F0B27A;
+    width: 120px;
+    height: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+}
+.main-title i{
+    color: #B68D40;
+}
+.card .work{
+    background-color: #d6ad61;
+    color: white;
+    font-weight: bold;
+}
+.card .work:hover{
+    background-color: #784212;
+    color: white;
+}
+/*end services*/
+
+/*start about-me*/
+.about-me .text .spa{
+    color: #F0B27A;
+    font-weight: bold;
+}
+.about-me .text i{
+    color: #F0B27A;
+}
+/*end about-me*/
+
+/*start protofilo*/
+.protofilo{
+    background-color: var(--bg-color);
+}
+.protofilo .text  i{
+    font-size: 40px;
+}
+.protofilo .text .html{
+    color: #e34c26;
+}
+.protofilo .text .css{
+    color: #264de4;
+}
+.protofilo .text .js{
+    color: #F0DB4F;
+}
+.protofilo .text .btn-html{
+    background-color: #e34c26;
+    color: white;
+    font-weight: bold;
+}
+.protofilo .text .btn-css{
+    background-color: #264de4;
+    color: white;
+    font-weight: bold;
+}
+.protofilo .text .btn-js{
+    background-color: #F0DB4F;
+    color: white;
+    font-weight: bold;
+}
+.protofilo .text p{
+    line-height: 2.5;
+}
+/*end protofilo*/
